@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-options{
+    height: 5vh;
+    background-color: black;
+    padding: 5px;
+    justify-content: end;
+    min-width: 100vw;
+}
+
+.content{
+    height: 85vh;
+    background-color: blueviolet;
+}
+
+#bottom-nav{
+    height: 10vh;
+    background-color: chartreuse;
+}
+
+#speaker-view, #expand-box{
+    padding: 0.2rem .4rem;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    margin: 0 .2rem;
+    display: inline-block;
+    color: white;
+    height: 25px;
+}
